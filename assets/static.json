@@ -1,0 +1,48 @@
+{
+	"game": {
+		"angleSpeed": 0,
+		"backgroundColors": [["#000000", "#000000"], ["#000000", "#000000"]],
+		"cursorSpeed": 7,
+		"wallColors": ["#FFFFFF", "#FFFFFF"],
+		"wallSpeed": 0,
+		"music": "audio/shadows.ogg",
+		"patterns": [
+			[false, true, true, true, true, true],
+			[true, false, true, true, true, true],
+			[true, true, false, true, true, true],
+			[true, true, true, false, true, true],
+			[true, true, true, true, false, true],
+			[true, true, true, true, true, false],
+			[true, false, true, false, true, false],
+			[false, true, false, true, false, true],
+			[true, false, false, true, false, false],
+			[false, true, false, false, true, false],
+			[false, false, true, false, false, false]
+		]
+	},
+	"events":[
+		{
+			"time": 10,
+			"wallSpeed": 7.5
+		},
+		{
+			"time": 76,
+			"angleSpeed": 1,
+			"wallColors": ["#FFFFFF", "#EEEEFF"]
+		},
+		{
+			"time": 160,
+			"angleSpeed": 0
+		},
+		{
+			"time": 165,
+			"patterns": [
+				[true, true, true, true, true, true]
+			]
+		}
+	],
+	"levels": {
+		"timings": [180],
+		"texts": ["???", "SHADOWS"]
+	}
+}

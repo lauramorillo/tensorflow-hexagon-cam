@@ -1,0 +1,36 @@
+{
+	"game": {
+		"angleSpeed": 1.4,
+		"backgroundColors": [["#0D0A24", "#150d32"], ["#2a0736", "#1b0722"]],
+		"cursorSpeed": 8,
+		"wallColors": ["#9229da", "#3e57da"],
+		"wallSpeed": 5,
+		"rotationChance": 20,
+		"rotationFrequency": 3,
+		"music": "audio/lde007.ogg",
+		"musicStart": 0,
+		"patterns": [
+			[false, true, true, true, true, true],
+			[true, true, false, true, true, true],
+			[true, true, true, false, true, true],
+			[true, true, true, true, true, false],
+			[true, false, true, false, true, false],
+			[false, true, false, true, false, true],
+			[true, false, false, true, false, false]
+		]
+	},
+	"events": [
+		{
+			"time": 22,
+			"angleSpeed": 2.3,
+			"wallSpeed": 8,
+			"rotationChance": 80,
+			"backgroundColors": [["#330A04", "#380A04"], ["#6C1305", "#741405"]],
+			"wallColors": ["#B32900", "#EFAC41"]
+		}
+	],
+	"levels": {
+		"timings": [10, 20, 30, 45, 60, 88],
+		"texts": ["POINT", "LINE", "TRIANGLE", "SQUARE", "PENTAGON", "HEXAGON", "LD-E007"]
+	}
+}

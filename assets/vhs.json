@@ -1,0 +1,48 @@
+{
+	"game": {
+		"angleSpeed": 1.4,
+		"backgroundColors": [["#172748", "#222342"], ["#222342", "#172748"]],
+		"cursorSpeed": 8,
+		"wallColors": ["#6AB7FF", "#A8FFFF"],
+		"wallSpeed": 5,
+		"rotationChance": 0,
+		"rotationFrequency": 5,
+		"music": "audio/vhs.ogg",
+		"musicStart": 0,
+		"patterns": [
+			[false, true, true, true, true, true],
+			[true, true, false, true, true, true],
+			[true, true, true, false, true, true],
+			[true, true, true, true, true, false],
+			[true, false, true, false, true, false],
+			[false, true, false, true, false, true],
+			[true, false, false, true, false, false]
+		]
+	},
+	"events": [
+		{
+			"time": 21,
+			"angleSpeed": 2.3,
+			"wallSpeed": 6.5,
+			"rotationChance": 100,
+			"backgroundColors": [["#000000", "#041025"], ["#260202", "#000000"]],
+			"wallColors": ["#339fc7", "#c73333"]
+		},
+		{
+			"time": 62.5,
+			"rotationChance": 100,
+			"backgroundColors": [["#68bbf7", "#339fc7"], ["#f76868", "#c73333"]],
+			"wallColors": ["#041025", "#260202"]
+		},
+		{
+			"time": 93,
+			"backgroundColors": [["#172748", "#222342"], ["#222342", "#172748"]],
+			"wallColors": ["#6AB7FF", "#A8FFFF"],
+			"rotationChance": 0
+		}
+	],
+	"levels": {
+		"timings": [10, 20, 30, 45, 60, 120],
+		"texts": ["POINT", "LINE", "TRIANGLE", "SQUARE", "PENTAGON", "HEXAGON", "VHS"]
+	}
+}

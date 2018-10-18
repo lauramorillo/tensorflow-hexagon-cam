@@ -1,0 +1,35 @@
+{
+	"game": {
+		"angleSpeed": 1.3,
+		"backgroundColors": [["#000000", "#082410"], ["#000000", "#221602"]],
+		"cursorSpeed": 6.5,
+		"wallColors": ["#33E566", "#DC9311"],
+		"wallSpeed": 6,
+		"music": "audio/bgm.ogg",
+		"patterns": [
+			[false, true, true, true, true, true],
+			[true, true, false, true, true, true],
+			[true, true, true, false, true, true],
+			[true, true, true, true, true, false],
+			[true, false, true, false, true, false],
+			[false, true, false, true, false, true],
+			[true, false, false, true, false, false]
+		]
+	},
+	"events": [
+		{
+			"time": 60,
+			"backgroundColors": [["#F6D0E5", "#F6F6F6"], ["#DAE9FD", "#F6F6F6"]],
+			"wallColors": ["#F6007D", "#1873F2"]
+		},
+		{
+			"time": 63,
+			"angleSpeed": 2.2,
+			"wallSpeed": 7.5
+		}
+	],
+	"levels": {
+		"timings": [10, 20, 30, 45, 60, 120],
+		"texts": ["POINT", "LINE", "TRIANGLE", "SQUARE", "PENTAGON", "HEXAGON", "AWESOME"]
+	}
+}
